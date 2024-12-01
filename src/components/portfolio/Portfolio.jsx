@@ -65,7 +65,7 @@ const Portfolio = () => {
               </button>*/}
 
               <button className="work__button" onClick={() => openPopup(elem)}>
-                <i className="icon-link work__button-icon"></i>
+                <i className="fa-solid fa-ellipsis"></i>
               </button>
               {selectedProject && (
               <Popup trigger={buttonPopup} setTrigger={closePopup}>
