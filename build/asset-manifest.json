@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/jdavisportfolio/static/css/main.65b5bbfd.css",
+    "main.js": "/jdavisportfolio/static/js/main.d8683b7b.js",
+    "static/js/453.253ccfac.chunk.js": "/jdavisportfolio/static/js/453.253ccfac.chunk.js",
+    "static/media/home_img.JPG": "/jdavisportfolio/static/media/home_img.4195b30260577ba8352e.JPG",
+    "static/media/portfolio.png": "/jdavisportfolio/static/media/portfolio.0bbfea4a886d4c09a768.png",
+    "static/media/xv6.png": "/jdavisportfolio/static/media/xv6.fc567adff8803c82f859.png",
+    "static/media/OoOCPU.png": "/jdavisportfolio/static/media/OoOCPU.92357cdb2370556879ab.png",
+    "static/media/adventure.png": "/jdavisportfolio/static/media/adventure.a8d772aedcfc811b30d1.png",
+    "static/media/bufferoverflow.png": "/jdavisportfolio/static/media/bufferoverflow.8d1ba54c25a7db9fb6d5.png",
+    "static/media/Cache.jpg": "/jdavisportfolio/static/media/Cache.89a8d90afde071763350.jpg",
+    "static/media/logo.svg": "/jdavisportfolio/static/media/logo.8c2fb23675dc34b2041044d6dd41e4e3.svg",
+    "static/media/dots-bg.svg": "/jdavisportfolio/static/media/dots-bg.aa8289c51cd678b8cd47.svg",
+    "index.html": "/jdavisportfolio/index.html",
+    "main.65b5bbfd.css.map": "/jdavisportfolio/static/css/main.65b5bbfd.css.map",
+    "main.d8683b7b.js.map": "/jdavisportfolio/static/js/main.d8683b7b.js.map",
+    "453.253ccfac.chunk.js.map": "/jdavisportfolio/static/js/453.253ccfac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.65b5bbfd.css",
+    "static/js/main.d8683b7b.js"
+  ]
+}
