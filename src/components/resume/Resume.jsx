@@ -20,7 +20,7 @@ const Resume = () => {
                 desc={val.desc} />
               )
             }
-            return;
+            return null;
           })}
         </div>
 
@@ -36,7 +36,7 @@ const Resume = () => {
                   desc={val.desc} />
               )
             }
-            return;
+            return null;
           })}
         </div>
 
