@@ -1,26 +1,25 @@
 import React from 'react';
 import "./home.css";
-import Me from "../../assets/avatar-1.svg";
+import Me from "../../assets/home_img.JPG";
 import HeaderSocials from './HeaderSocials';
 import ScrollDown from './ScrollDown';
-import Shapes from './Shapes';
 
 const Home = () => {
   return (
     <section className="home container" id="home">
       <div className="intro">
-        <img src={Me} alt="" className="home__img" />
+        <div className="profile__container">
+          {/* TODO : Center Image */}
+            <img src={Me} alt="" className="home__img" />
+        </div>
         <h1 className="home_name">Jack Davis</h1>
-        <span className="home__education">Insert text about my background</span>
-
+        <span className="home__education">4th Year Computer Science Student @ Georgia Tech</span>
+        <span className="home__contact">Contact me: jdavis647@gatech.edu</span>
+        {/* TODO: Fix buttons */}
         <HeaderSocials/>
-
-        <a href="#contact" className="btn">Hire me!</a>
-
         <ScrollDown />
-
+        
       </div>
-      <Shapes />
     </section>
   )
 }

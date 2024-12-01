@@ -6,9 +6,31 @@
     justify-content: center;
 }
 
+.profile__container {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Makes the div circular */
+    overflow: hidden; /* Ensures the image stays within the circle */
+    display: flex; /* Centers the image */
+    justify-content: center; /* Centers the image horizontally */
+    align-items: center; /* Centers the image vertically */
+    border: 2px solid #ccc;
+}
+  
+.profile-container img {
+    width: 100%; /* Ensure the image covers the circle */
+    height: 100%; /* Maintain circle proportions */
+    object-fit: cover; /* Keeps the image aspect ratio and fills the circle */
+}
+
 .intro {
-    max-width: 540px;
-    text-align: center;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Align items horizontally at the center */
+    justify-content: center; /* Align items vertically (optional, for full-height centering) */
+    height: 100vh; /* Make the container take the full viewport height (optional) */
+    text-align: center; /* Center-align text inside */
+    gap: 1rem; /* Add spacing between items */
 }
 
 .home__img {
@@ -18,12 +40,11 @@
 .home__name {
     font-size: var(--h1-font-size);
     font-weight: var(--font-bold);
-    margin-bottom: 0.5rem;
 }
 
 .home__socials {
     display: flex;
-    column-gap: 1.75rem;
+    column-gap: 2.5rem;
     margin: 1.5rem 0;
     align-items: center;
     justify-content: center;
@@ -31,7 +52,7 @@
 
 .home__social-link {
     color: var(--title-color);
-    font-size: 1.3;
+    font-size: 1.3rem;
     transition: .3s;
 }
 

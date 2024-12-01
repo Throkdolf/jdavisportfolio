@@ -9,7 +9,7 @@ const HeaderSocials = () => {
             target='_blank'
             rel="noopener noreferrer"
         >
-            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-github fa-2x"></i>
         </a>
 
         <a 
@@ -18,16 +18,7 @@ const HeaderSocials = () => {
             target='_blank'
             rel="noopener noreferrer"
         >
-            <i class="fa-brands fa-linkedin"></i>
-        </a>
-
-        <a 
-            href="mailto:ggg@ggg.com"
-            className="home__socials-link" 
-            target='_blank'
-            rel="noopener noreferrer"
-        >
-            <i class="fa-solid fa-envelope"></i>
+            <i class="fa-brands fa-linkedin fa-2x"></i>
         </a>
     </div>
   )
