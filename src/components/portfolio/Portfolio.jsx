@@ -3,6 +3,8 @@ import "./portfolio.css"
 import Menu from "./Menu"
 import Popup from './Popup'
 
+// const fmt = s => s.replace(/\t/g, '    '); // 4 spaces
+
 const Portfolio = () => {
   const[items, setItems] = useState(Menu)
   /* buttonPopup is the state itself, setButtonPopup is a function to change the state */
@@ -70,7 +72,17 @@ const Portfolio = () => {
               {selectedProject && (
               <Popup trigger={buttonPopup} setTrigger={closePopup}>
                 <h3 className="popup__title">{selectedProject.title}</h3>
-                <p className="popup__description">{selectedProject.description}</p>
+                <div>{selectedProject.dates}</div>
+                {selectedProject.description.map((para, index) => (
+                  <p key={index} className="popup__description">
+                    {para}
+                  </p>
+                ))}
+                {selectedProject?.linkDesc && <div className="project__link__container">{selectedProject.linkDesc}</div>}
+                {selectedProject?.link && <a 
+                      href={selectedProject.link.startsWith("http") ? selectedProject.link : `https://${selectedProject.link}`}
+                      target="_blank"
+                      rel="noopener noreferrer">{selectedProject.link}</a>}
               </Popup>
               )}
             </div>
